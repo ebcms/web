@@ -3,7 +3,7 @@
     "description": "web端",
     "license": "GPL-3.0",
     "require": {
-        "ebcms/admin": "^1.0"
+        "digphp/framework": "^1.0"
     },
     "autoload": {
         "psr-4": {
