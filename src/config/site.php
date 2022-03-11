@@ -2,7 +2,7 @@
 return [
     'name' => 'EBCMS',
     'logo' => 'https://static.ebcms.com/logo2.png',
-    'close' => '0',
+    'is_close' => '0',
     'close_reason' => '',
     'beian' => '',
     'email' => '',

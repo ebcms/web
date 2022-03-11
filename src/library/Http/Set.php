@@ -31,7 +31,7 @@ class Set extends Common
                 (new TabItem('基础设置'))->addItem(
                     (new Input('网站名称', 'ebcms[web][site][name]', $config->get('site.name@ebcms.web')))->set('help', '网站标题的后缀，一般不宜过长，例如:EBCMS'),
                     (new Cover('网站标志', 'ebcms[web][site][logo]', $config->get('site.logo@ebcms.web'), $router->build('/ebcms/admin/upload')))->set('help', '最好不要上传太大的图片~'),
-                    (new Switchs('是否关闭网站', 'ebcms[web][site][close]', $config->get('site.close@ebcms.web', 0)))->addSwitch(
+                    (new Switchs('是否关闭网站', 'ebcms[web][site][is_close]', $config->get('site.is_close@ebcms.web', 0)))->addSwitch(
                         (new SwitchItem('开启网站', 0))->addItem(
                             new Html('开启后前台可访问~')
                         ),
