@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace App\Ebcms\Web\Middleware;
 
-use DigPHP\Framework\Config;
-use DigPHP\Framework\Framework;
 use DigPHP\Psr17\Factory;
+use Ebcms\Framework\Config;
+use Ebcms\Framework\Framework;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
