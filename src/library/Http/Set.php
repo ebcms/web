@@ -6,18 +6,18 @@ namespace App\Ebcms\Web\Http;
 
 use App\Ebcms\Admin\Http\Common;
 use App\Ebcms\Admin\Model\Config as ModelConfig;
-use DigPHP\Form\Builder;
-use DigPHP\Form\Component\Html;
-use DigPHP\Form\Component\SwitchItem;
-use DigPHP\Form\Component\Switchs;
-use DigPHP\Form\Component\Tab;
-use DigPHP\Form\Component\TabItem;
-use DigPHP\Form\Field\Cover;
-use DigPHP\Form\Field\Input;
-use DigPHP\Form\Field\Textarea;
-use DigPHP\Request\Request;
-use DigPHP\Router\Router;
-use Ebcms\Framework\Config;
+use DiggPHP\Form\Builder;
+use DiggPHP\Form\Component\Html;
+use DiggPHP\Form\Component\SwitchItem;
+use DiggPHP\Form\Component\Switchs;
+use DiggPHP\Form\Component\Tab;
+use DiggPHP\Form\Component\TabItem;
+use DiggPHP\Form\Field\Cover;
+use DiggPHP\Form\Field\Input;
+use DiggPHP\Form\Field\Textarea;
+use DiggPHP\Request\Request;
+use DiggPHP\Router\Router;
+use DiggPHP\Framework\Config;
 
 class Set extends Common
 {
